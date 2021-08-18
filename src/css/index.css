@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.margen {
+    margin: 100px;
+}
+
+.tabla {
+    width: 100%;
+    text-align: left;
+}
+
+.tabla td {
+    padding: 10px 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #253A46;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contenedor_tareas {
+    text-align: center;
+}
+
+.tasks::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+.center {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(207, 7, 7);
+}
+
+.centrar {
+    text-align: center;
+    list-style: none
+}
+
+.enLinea {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.arrow-down.icon {
+    color: rgb(207, 7, 7);
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 2px;
+    height: 16px;
+    background-color: currentColor;
+}
+
+.arrow-down.icon:before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 2px currentColor;
+    border-right: solid 2px currentColor;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.divicionPublicaciones {
+    border-top: 1.2px solid #253A46;
+    cursor: pointer;
+}
+
+.tituloGeneral {
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+.titulo::first-letter {
+    text-transform: uppercase;
+}
+
+.parrafo {
+    text-align: center;
+    color: #253A46;
+    text-indent: 1rem;
+}
+
+.parrafo::first-letter {
+    text-transform: uppercase;
+}
